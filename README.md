@@ -11,6 +11,44 @@ Repositório desenvolvido para fins didáticos, com a disponibilização de mate
 
 ## Objetivo
 Aprender o básico sobre contribuição no GitHub.
+Instruções (PT/BR)
+Faça um Fork deste repositório;
+Clonar localmente: git clone https://github.com/SEU_USERNAME/dio-lab-open-source.git;
+Adicione o upstream remoto para manter seu repositório local atualizado. Por exemplo: git remote add upstream https://github.com/digitalinnovationone/dio-lab-open-source.git;
+Utilize o comando git pull upstream mainpara baixar e mesclar as alterações no seu repositório local com base na branch maindeste repositório original de onde você fez o fork, ou git fetch upstream mainpara baixar sem mesclar. Veja mais em: Primeiros Passos com Git e GitHub .
+
+Crie/Referencie uma nova filial e nomeie como feat/community/SEU_USERNAME: git checkout -b feat/community/SEU_USERNAME;
+Exemplo:git checkout -b feat/community/elidianaandrade
+
+Dentro da pasta community, crie um arquivo em Markdown (extensão .md) e nomeie com o mesmo nome do seu usuário no GitHub;
+Exemplo:elidianaandrade.md
+
+Desenvolva seu perfil. Para isso, você pode ver exemplos na pasta communitye adicionar alguns dos presentes importantes na pasta utils;
+Observação: Use os outros exemplos como inspiração e não cópia.
+
+Adicione suas alterações a "staging area" com o comando git add community/SEU_USERNAME.md;
+Crie um commit e adicione a mensagem diminuindo a adição do seu perfil git commit -m"feat: add SEU_USERNAME profile";
+Envie as alterações para o seu repositório remoto git push origin feat/community/SEU_USERNAME;
+Crie um Pull Request .
+Instruções (EN/US)
+Bifurque este repositório;
+Clonar localmente: git clone https://github.com/YOUR_USERNAME/dio-lab-open-source.git;
+Adicione o upstream remoto para manter seu repositório local atualizado. Por exemplo: git remote add upstream https://github.com/digitalinnovationone/dio-lab-open-source.git;
+Use o comando git pull upstream mainpara baixar e mesclar as alterações no seu repositório local com base na mainramificação deste repositório original do qual você bifurcou, ou git fetch upstream mainpara baixar sem mesclar. Saiba mais em: Introdução ao Git e GitHub .
+
+Crie/Referencie uma nova ramificação e nomeie-a feat/community/YOUR_USERNAME: git checkout -b feat/community/YOUR_USERNAME;
+Exemplo:git checkout -b feat/community/elidianaandrade
+
+Dentro da communitypasta, crie um arquivo Markdown (extensão .md) e nomeie-o com o nome do seu nome de usuário do GitHub;
+Exemplo:elidianaandrade.md
+
+Desenvolva seu perfil: Para isso, você pode ver exemplos na communitypasta e adicionar alguns dos utilitários disponíveis na utilspasta;
+Nota: Use os outros exemplos como inspiração, não como cópia.
+
+Adicione suas alterações na "área de preparação" com o comando git add community/YOUR_USERNAME.md;
+Crie um commit e adicione uma mensagem indicando a adição do seu perfil git commit -m"feat: add YOUR_USERNAME profile";
+Envie as alterações para seu repositório remoto git push origin feat/community/YOUR_USERNAME;
+Crie uma solicitação de pull .
 
 ## Ferramentas
 [![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=30A3DC)](https://docs.github.com/)
